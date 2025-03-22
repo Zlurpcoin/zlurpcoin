@@ -1,0 +1,99 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header Section */
+#hero {
+    background-color: #ff007f; /* Bright color for chaos */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #00ff88; /* Bright green button */
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00cc66;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #222;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Roadmap Section */
+#roadmap {
+    background-color: #333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#roadmap ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+#roadmap li {
+    margin: 10px 0;
+}
+
+/* Community Section */
+#community {
+    background-color: #444;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#community ul {
+    list-style-type: none;
+}
+
+#community li {
+    margin: 10px 0;
+}
+
+#community a {
+    color: #00ff88;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#community a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
